@@ -15,6 +15,10 @@
 		041430711FA4223400754189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0414306F1FA4223400754189 /* LaunchScreen.storyboard */; };
 		0414307C1FA4223400754189 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414307B1FA4223400754189 /* MentorBookTests.swift */; };
 		041430871FA4223400754189 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041430861FA4223400754189 /* MentorBookUITests.swift */; };
+		041430951FA423CD00754189 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041430941FA423CD00754189 /* File.swift */; };
+		04AA615A1FAB0E7D007786FE /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04AA61571FAB0E7D007786FE /* nagata.jpg */; };
+		04AA615B1FAB0E7D007786FE /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04AA61581FAB0E7D007786FE /* ryo.jpg */; };
+		04AA615C1FAB0E7D007786FE /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 04AA61591FAB0E7D007786FE /* taithi.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		041430821FA4223400754189 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041430861FA4223400754189 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		041430881FA4223400754189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041430941FA423CD00754189 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		04AA61571FAB0E7D007786FE /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		04AA61581FAB0E7D007786FE /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		04AA61591FAB0E7D007786FE /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		041430621FA4223400754189 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				04AA61561FAB0E7D007786FE /* images */,
 				041430631FA4223400754189 /* AppDelegate.swift */,
 				041430651FA4223400754189 /* ViewController.swift */,
 				041430671FA4223400754189 /* Main.storyboard */,
@@ -106,6 +115,7 @@
 				0414306F1FA4223400754189 /* LaunchScreen.storyboard */,
 				041430721FA4223400754189 /* Info.plist */,
 				0414306A1FA4223400754189 /* MentorBook.xcdatamodeld */,
+				041430941FA423CD00754189 /* File.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -127,6 +137,16 @@
 			);
 			path = MentorBookUITests;
 			sourceTree = "<group>";
+		};
+		04AA61561FAB0E7D007786FE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				04AA61571FAB0E7D007786FE /* nagata.jpg */,
+				04AA61581FAB0E7D007786FE /* ryo.jpg */,
+				04AA61591FAB0E7D007786FE /* taithi.JPG */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -236,6 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				041430711FA4223400754189 /* LaunchScreen.storyboard in Resources */,
+				04AA615A1FAB0E7D007786FE /* nagata.jpg in Resources */,
+				04AA615C1FAB0E7D007786FE /* taithi.JPG in Resources */,
+				04AA615B1FAB0E7D007786FE /* ryo.jpg in Resources */,
 				0414306E1FA4223400754189 /* Assets.xcassets in Resources */,
 				041430691FA4223400754189 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041430661FA4223400754189 /* ViewController.swift in Sources */,
+				041430951FA423CD00754189 /* File.swift in Sources */,
 				041430641FA4223400754189 /* AppDelegate.swift in Sources */,
 				0414306C1FA4223400754189 /* MentorBook.xcdatamodeld in Sources */,
 			);
